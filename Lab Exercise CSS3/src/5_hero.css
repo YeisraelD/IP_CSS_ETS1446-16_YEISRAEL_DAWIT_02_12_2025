@@ -1,0 +1,10 @@
+.hero{
+    background-image:url(Gallery/startup.jpg) ;
+    height: 95vh;
+    padding: 20px;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    text-shadow: 20px;
+    color: rgb(from color red green blue);
+}

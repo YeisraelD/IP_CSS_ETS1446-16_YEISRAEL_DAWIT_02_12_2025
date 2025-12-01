@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dynamic Theme</title>
+        <link rel="stylesheet" href="14_dynamicTherem.css">
+
+        
+    </head>
+    <body>
+        <header>
+            <button id="btn" class="btn"> Toggle Theme</button>
+            <h1>Chronicles of The Failure</h1>
+            <h3>welcome To My Blog</h3>
+            <p>Here I am with  other story of my awesome or hellish day</p>
+            <button>Explore My Days</button>
+            <script>
+            const btn = document.getElementById("btn");
+
+            btn.addEventListener("click", () => {
+                document.body.classList.toggle("dark-mode")
+            })
+        </script>
+        </header>
+        
+        <main>
+            
+        </main>
+        
+    </body>
+</html>

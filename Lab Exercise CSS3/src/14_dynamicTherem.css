@@ -1,0 +1,57 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111111;
+    --button-bg: #222;
+    --button-text: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Pacifico", cursive;
+}
+
+button {
+    padding: 10px 20px;
+    background: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    --bg-color: #111111;
+    --text-color: #f1f1f1;
+    --button-bg: #ffffff;
+    --button-text: #111111;
+}
+
+header {
+    width: 100%;
+    text-align: center; 
+    font-size: 27px;
+    margin: 20px 0;
+    color: var(--text-color);
+    font-weight: normal;
+    font-family: "Shadows Into Light", cursive;
+}
+
+main {
+    background-image: url(Gallery/blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 45vh;
+    width: 100%;        
+    margin: 0;
+    padding: 0;
+
+    display: flex;       
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

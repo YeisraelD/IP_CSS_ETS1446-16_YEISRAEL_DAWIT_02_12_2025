@@ -1,0 +1,25 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    gap: 20px;
+} 
+.card{
+    align-items: center;
+    background-color: antiquewhite;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+
+}
+.card .img {
+    align-content: center;
+}
+@media (max-width:600px){
+    .cards{
+        flex-direction: column;
+    }
+}

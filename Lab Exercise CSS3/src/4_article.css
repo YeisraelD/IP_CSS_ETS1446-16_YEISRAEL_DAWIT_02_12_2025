@@ -1,0 +1,10 @@
+.article {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #333;
+}
+.article h1 {
+    color: rgb(92, 152, 203);
+}

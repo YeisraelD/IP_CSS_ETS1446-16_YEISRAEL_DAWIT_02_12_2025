@@ -1,0 +1,36 @@
+.intro{
+    font-family: 'Meringue', sans-serif;
+    padding: 20px; 
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    align-items: center;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.works{
+    font-size: 20px;
+    font-weight: light;
+    padding: 5px;
+    color: white;
+    text-align: left;   
+    padding: 20px;
+    
+    font-family: 'Verdana', sans-serif;
+}
+
+body{
+    background-image: url(Gallery/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

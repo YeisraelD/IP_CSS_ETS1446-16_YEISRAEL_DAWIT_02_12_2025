@@ -1,0 +1,16 @@
+nav .firsr {
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+nav .active {
+    background-color: lightpink;
+}
+nav > a{
+    border: 1px solid pink;
+    padding: 10px;
+    
+}

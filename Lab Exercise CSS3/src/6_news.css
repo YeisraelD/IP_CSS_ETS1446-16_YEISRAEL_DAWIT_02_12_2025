@@ -1,0 +1,33 @@
+.sidebar{
+    width: 28%;
+    height: 35;
+    float: left;
+    background: lightblue;
+    padding: 20px;
+    border-right: 2px solid black;
+
+}
+.sidebar h3{
+    margin-top: 0;
+
+}
+.sidebar ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.main-content{
+    width: 60%;
+    float: right;
+    padding: 20px;
+    background: lightcoral;
+}
+.main-content h2 {
+    margin-top: 0;
+}
+.footer {
+    clear:both;
+    background: lightpink;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
